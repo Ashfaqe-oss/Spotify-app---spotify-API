@@ -1,0 +1,21 @@
+.sidebar {
+    flex: 0.2;
+    min-width: 120px;
+    height: 95vh;
+    padding: 2% 2.5%;
+    background-color: #040404;
+    color: white;
+}
+
+.sidebar>img {
+    width: 130px;
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+
+.sidebar>h3 {
+    color: gray;
+    padding-top: 17px;
+    padding-bottom: 7px;
+    border-bottom: 3px solid rgb(43, 43, 43);
+}
