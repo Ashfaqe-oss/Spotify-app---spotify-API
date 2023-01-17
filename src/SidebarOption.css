@@ -1,0 +1,14 @@
+.sidebarOption {
+    color: grey;
+    margin: 15px 20px 5px 10px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+}
+
+.sidebarOption:hover {
+    color: white;
+}
+
+.sidebarOption>p {
+    font-size: 13px;
+}

@@ -1,0 +1,44 @@
+.songRow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+@media (max-width: 580px) {
+    .songRow {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.songRow:hover {
+    background-color: black;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.songRow>img {
+    width: 87px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+@media (max-width: 580px) {
+    .songRow>img {
+        width: 170px;
+        object-fit: contain;
+        margin-top: 5px;
+    }
+}
+
+.songRow>h3 {
+    font-size: 16px;
+}
+
+.songRow__info>p {
+    font-size: 12px;
+    margin-top: 3px;
+    color: gray;
+}

@@ -1,0 +1,94 @@
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 85px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #282828;
+    color: white;
+}
+
+.footer__left {
+    flex: 0.3;
+    width: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 180px) {
+    .footer__left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.footer__albumLogo {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.footer__songInfo {
+    width: 100%;
+}
+
+.footer__center {
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 2%;
+    color: white;
+}
+
+.footer__icon {
+    padding: 6px 5%;
+}
+
+.footer__iconPlay {
+    padding: 0 5%;
+}
+
+.footer__green {
+    color: rgb(41, 223, 41);
+    padding: 6px 2.5%;
+}
+
+.footer__icon:hover,
+.footer__iconPlay:hover,
+.footer__green:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+
+.footer__right {
+    margin-top: auto;
+    margin-bottom: auto;
+    flex: 0.2;
+    max-width: 230px;
+    margin: 15px 0 0;
+    padding-top: 10px;
+    margin-right: 1%;
+    padding-left: 11px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    justify-content: center;
+}
+
+.footer__right::-webkit-scrollbar {
+    display: none;
+}
+
+.footer__rightslider {
+    min-width: 45px;
+}
+
+.footer__right * .MuiSlider-root {
+    color: green;
+    min-width: 50px;
+}
